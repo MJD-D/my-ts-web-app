@@ -8,6 +8,22 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  margin-top: 30px;
+}
+
+.contact-details {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -23,5 +39,4 @@ body {
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
 }
